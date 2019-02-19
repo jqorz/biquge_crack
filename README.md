@@ -2,6 +2,9 @@
 笔趣阁本身功能很好用，但是启动时的广告加载太慢，时间太长，
 因此破解了启动广告及内部广告，此版本可用于安卓9.0
 
+##下载地址
+[破解版1.0.9](https://github.com/jqorz/biquge_crack/blob/master/crack/biquge_crack_1.0.9.apk)
+
 ## 使用工具
 Android Killer V1.3.1.0 - 用于修改smali文件，解包和打包
 jadx-gui_0.8.0和jd-gui - 用于查看smali对应的java代码
@@ -34,7 +37,7 @@ jadx-gui_0.8.0和jd-gui - 用于查看smali对应的java代码
   - AndroidManifest中去除注册的推送的接收(未能成功去掉，去掉的只是推送服务而不是广告服务)
 ### 1.0.6 去除看书界面从后台切回来时显示的广告
   - tinker里的初始化去掉广告的注册id(未能成功去掉，去掉id只是让后台无法统计，但是还是会显示广告)
-### 0.0.7 去除看书界面从后台切回来时显示的广告
+### 1.0.7 去除看书界面从后台切回来时显示的广告
   - 修改BookReadActivity里的广告view的显示为隐藏，具体修改内容为BookReadActivity$14第51行由const/8 v1, 0x0改为const/16 v1, 0x8，含义是setVisibility由VISIBLE改为GONE(未能去掉，隐藏的不是广告，而是进入书籍时的转圈进度条)
 ### 1.0.8 去除看书界面从后台切回来时显示的广告
   - 先全局检索"跳过"，定位到这个字符串的R文件的int值(0x7f0701b9)，再全局检索此int值，发现了XuliAdSpalshView，ShowOpenAdActivity，WelcomeActivity这三个Activity包含。其中WelcomeActivity已经处理了，所以修改ShowOpenAdActivity。
