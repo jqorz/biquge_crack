@@ -6,9 +6,9 @@
 [破解版1.0.9](https://github.com/jqorz/biquge_crack/blob/master/crack/biquge_crack_1.0.9.apk)
 
 ## 使用工具
-Android Killer V1.3.1.0 - 用于修改smali文件，解包和打包
-jadx-gui_0.8.0和jd-gui - 用于查看smali对应的java代码
-先在jadx-gui里查看混淆后的java代码，再在Android Killer里根据方法名称，定位修改源码，修改好之后，再重新
+- Android Killer V1.3.1.0 - 用于修改smali文件，解包和打包
+- jadx-gui_0.8.0和jd-gui - 用于查看smali对应的java代码
+- 先在jadx-gui里查看混淆后的java代码，再在Android Killer里根据方法名称，定位修改源码，修改好之后，再重新打包
 
 ` 由于正版从5.0开始加固了，因此本破解版基于4.0.20171226（版本号91）`
 
