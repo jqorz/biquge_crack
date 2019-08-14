@@ -7,15 +7,18 @@
 ## 使用工具（在/tools文件夹下面）
 1. Android Killer V1.3.1.0
 > 用于修改smali文件，解包和打包
-2. dex2jar
+
+2. dex2jar2.1(没用到)
 > 用于将dex转成可以查看的jar
 
     1. 进入cmd ,输入D:  打开到D盘
     2. 定位到dex2jar文件夹位置，比如cd D:/Program/dex2jar-2.0
     3. 执行bat文件，如d2j-dex2jar classes.dex（classes.dex是拷贝到该目录下的文件）
     4. dex2jar文件夹中便会生成对应的jar文件
-3. jadx-gui_0.8.0和jd-gui
+
+3. jd-gui(Android Killer解压，bin文件夹里)
 > 用于查看jar包中的代码
+
 4. xposed框架+fdex2
 > 加固脱壳
 
@@ -25,7 +28,18 @@
     4. 在fdex2中选择hook的app，打开该app
     5. 打开data/user/0/包名 拷贝出里面的dex到电脑
 
-` 先在jadx-gui里查看混淆后的java代码，再在Android Killer里根据方法名称，定位修改源码，修改好之后，再重新打包`
+5. apktools.jar和baksmali.jar
+> apktools可以把apk反编译，或者把反编译的代码打包成apk
+>
+> baksmali可以把dex转为smail
+
+    1. 首先配置好java的环境变量
+    2. 进入cmd ,输入D:  打开到D盘
+    3. 定位到jar所在文件夹位置，比如cd D:/Program/apktool和baksmali
+    4. 执行baksmali的jar，如D:\Program\apktool和baksmali>java -jar baksmali_2.2.5.jar d dex1.dex
+    5. 执行apktools的jar，如D:\Program\apktool和baksmali>java -jar apktool_2.3.4.jar d biquge.apk -o outdir
+
+` 先在jadx-gui里查看混淆后的java代码，再在Android Killer里根据方法名称，定位修改smail源码，修改好之后，再使用Android Killer重新打包`
 
 ## 版本说明（原版安装包在/origin，破解版在/crack）
 ### 1.0-1.0.9基于原版4.0.20171226（版本号91），此版本未加固
@@ -69,7 +83,7 @@ invoke-virtual {p0}, Lcom/biquge/ebook/app/ui/activity/ShowOpenAdActivity;->fini
 将这段代码替换到ShowOpenAdActivity的169行(.line34位置)
 ### 1.1.0 升级版本，规避弹窗
 ### 2.0.0 新的6.5新版本
-> 之前的宜搜源已经失效，导致很多书搜索不到，这次6.5新版本采用了新的源，并且被加固。尝试脱壳重新破解。脱壳成功了，但是暂时未发现广告，所以先不破解
+> 之前的宜搜源已经失效，导致很多书搜索不到，这次6.5新版本采用了新的源，并且被加固。尝试脱壳重新破解。
 
 ## 使用说明
 由于本版本使用了新签名，因此无法覆盖安装。所以请先注册个账户，然后在主界面选择上传阅读进度到云端，然后卸载，换为此版本，再从云端下载阅读进度
