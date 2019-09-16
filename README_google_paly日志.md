@@ -28,4 +28,9 @@ const-string/jumbo v0, "https://update.zsdfm.com/v7/google/version.html"
 
 
 
-
+原版地址
+https://play.google.com/store/apps/details?id=com.googlebiquge.ebook.app
+云盘地址
+https://www.lanzous.com/i67ckhc
+crack app 云盘地址:
+https://www.lanzous.com/i676u3c
