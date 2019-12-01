@@ -33,9 +33,13 @@ const-string/jumbo v0, "https://update.zsdfm.com/v7/google/version.html"
 
 原版地址
 https://play.google.com/store/apps/details?id=com.googlebiquge.ebook.app
-https://dev.tencent.com/s/32108d52-93d7-4b02-8f11-fc760a52d452
 云盘地址
 https://www.lanzous.com/i67ckhc
 crack app 云盘地址:
 https://www.lanzous.com/i676u3c
+
+
+原版地址2
+https://dev.tencent.com/s/32108d52-93d7-4b02-8f11-fc760a52d452
+破解版地址2
 https://dev.tencent.com/s/d4a0c161-01de-4136-aef3-96563d300df8
