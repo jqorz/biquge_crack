@@ -13,8 +13,10 @@
 ## 下载地址（在/crack文件夹下面）
 [3.0.0下载](https://github.com/jqorz/biquge_crack/tree/master/crack/3.0.0版本(基于1.0+修改)/3.0.0/biquge_crack_3.0.0.apk)
 
-【推荐这个，好用】[笔趣旧版追书阁](http://m.app.mi.com/?word=%E6%97%A7%E7%89%88%E7%AC%94%E8%B6%A3#page=detail&id=623556)
+[笔趣旧版追书阁](http://m.app.mi.com/?word=%E6%97%A7%E7%89%88%E7%AC%94%E8%B6%A3#page=detail&id=623556)【推荐这个，好用】
+
 由于这个版本更好用，所以不准备继续反编译破解新版的笔趣阁了。
+
 ` 觉得好用的记得给个star`
 
 ## 使用工具（在/tools文件夹下面）
@@ -44,15 +46,19 @@
 
 5. apktools.jar和baksmali.jar
 > apktools可以把apk反编译，或者把反编译的代码打包成apk
+
     1. 把apktools.jar放在APKKiller的安装目录/bin/apktools里
     2. 在Android Killer中，选择顶部Android->APKTOOL管理器->添加，把最新版的apktools.jar加进去，并且在底下选择Apktool版本
+    
 > baksmali可以把dex转为smail
 
 > 新版apktool下载地址
+
 [ShakaApktool](https://github.com/rover12421/ShakaApktool) 作者：rover12421
 [apktool源码](https://github.com/iBotPeaches/Apktool)  作者：iBotPeaches
 
 > 新版baksmali下载地址
+
 [smali/baksmali源码](https://github.com/JesusFreke/smali) 作者：JesusFreke]
 
     1. 首先配置好java的环境变量
@@ -62,8 +68,11 @@
     5. 执行apktools的jar，如D:\Program\apktool和baksmali>java -jar apktool_2.3.4.jar d biquge.apk -o outdir
 
 ` 先在jadx-gui里查看混淆后的java代码，再在Android Killer里根据方法名称，定位修改smail源码，修改好之后，再使用Android Killer重新打包`
+
 6. framework-res.apk
+
 >这是框架资源文件，用于反编译资源文件。
+
 ` 使用Android Killer时，可能会提示部分资源反编译失败，此时应该将此文件更名为1.apk,替换到C:\Users\用户名\apktool\framework\1.apk。这个框架资源是从安卓8.0提取的 `
 
 ## 版本说明（原版安装包在/origin，破解版安装包在/crack）
