@@ -3,11 +3,18 @@
 因此借此机会，尝试破解启动广告及内部广告，进行反编译技术探索学习
 
 > 1.0+版本已经无法获取最新的书籍；2.0版本被加固无法重新打包，因此可以在原版的最新版上先下载书籍到书架，然后上传进度到云端，再使用1.0+版本下载进度进行无广告阅读
+
 > 不推荐使用google版本，太大了
-> 推荐使用3.0+版本，可以正常使用站内搜索进行搜书（进入书籍偶尔会关闭阅读界面）
+
+> 不推荐使用3.0+版本，因为进入书籍偶尔会关闭阅读界面（估计是广告代码改出了Bug)
+
+> 【推荐这个，好用】[笔趣旧版追书阁](http://m.app.mi.com/?word=%E6%97%A7%E7%89%88%E7%AC%94%E8%B6%A3#page=detail&id=623556)
 
 ## 下载地址（在/crack文件夹下面）
 [3.0.0下载](https://github.com/jqorz/biquge_crack/tree/master/crack/3.0.0版本(基于1.0+修改)/3.0.0/biquge_crack_3.0.0.apk)
+
+【推荐这个，好用】[笔趣旧版追书阁](http://m.app.mi.com/?word=%E6%97%A7%E7%89%88%E7%AC%94%E8%B6%A3#page=detail&id=623556)
+由于这个版本更好用，所以不准备继续反编译破解新版的笔趣阁了。
 ` 觉得好用的记得给个star`
 
 ## 使用工具（在/tools文件夹下面）
@@ -27,7 +34,7 @@
 > 用于查看dex2jar生成的jar包中的代码
 
 4. xposed框架+fdex2
-> 加固脱壳
+> 加固脱壳，这个在手机上装个xposed框架，然后在框架里下载即可
 
     1. 手机root后安装xposed，或者不root安装VirtualXposed
     2. 安装fdex2.apk
@@ -37,8 +44,16 @@
 
 5. apktools.jar和baksmali.jar
 > apktools可以把apk反编译，或者把反编译的代码打包成apk
->
+    1. 把apktools.jar放在APKKiller的安装目录/bin/apktools里
+    2. 在Android Killer中，选择顶部Android->APKTOOL管理器->添加，把最新版的apktools.jar加进去，并且在底下选择Apktool版本
 > baksmali可以把dex转为smail
+
+> 新版apktool下载地址
+[ShakaApktool](https://github.com/rover12421/ShakaApktool) 作者：rover12421
+[apktool源码](https://github.com/iBotPeaches/Apktool)  作者：iBotPeaches
+
+> 新版baksmali下载地址
+[smali/baksmali源码](https://github.com/JesusFreke/smali) 作者：JesusFreke]
 
     1. 首先配置好java的环境变量
     2. 进入cmd ,输入D:  打开到D盘
@@ -47,6 +62,9 @@
     5. 执行apktools的jar，如D:\Program\apktool和baksmali>java -jar apktool_2.3.4.jar d biquge.apk -o outdir
 
 ` 先在jadx-gui里查看混淆后的java代码，再在Android Killer里根据方法名称，定位修改smail源码，修改好之后，再使用Android Killer重新打包`
+6. framework-res.apk
+>这是框架资源文件，用于反编译资源文件。
+` 使用Android Killer时，可能会提示部分资源反编译失败，此时应该将此文件更名为1.apk,替换到C:\Users\用户名\apktool\framework\1.apk。这个框架资源是从安卓8.0提取的 `
 
 ## 版本说明（原版安装包在/origin，破解版安装包在/crack）
 ### 1.0+ 基于原版4.0.20171226（版本号91），此版本未加固
