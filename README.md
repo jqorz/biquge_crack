@@ -12,7 +12,9 @@
 
 > 不推荐使用3.0+版本，因为进入书籍偶尔会关闭阅读界面（估计是广告代码改出了Bug)
 
-> 【推荐这个，好用】[笔趣旧版追书阁](http://m.app.mi.com/?word=%E6%97%A7%E7%89%88%E7%AC%94%E8%B6%A3#page=detail&id=623556)
+> 【别人的，旧版本】[笔趣旧版追书阁](http://m.app.mi.com/?word=%E6%97%A7%E7%89%88%E7%AC%94%E8%B6%A3#page=detail&id=623556)
+
+> [看小说推荐这个，开源项目，自己在用，很好用][阅读3.0](https://github.com/gedoor/legado)
 
 ## 下载地址（在/crack文件夹下面）
 [3.0.0下载](https://github.com/jqorz/biquge_crack/tree/master/crack/3.0.0版本(基于1.0+修改)/3.0.0/biquge_crack_3.0.0.apk)
