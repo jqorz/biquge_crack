@@ -79,7 +79,7 @@
 
 >这是框架资源文件，用于反编译资源文件。
 
-` 使用Android Killer时，可能会提示部分资源反编译失败，此时应该将此文件更名为1.apk,替换到C:\Users\用户名\apktool\framework\1.apk（win11是C:\Users\用户名\AppData\Local\apktool\framework\1.apk）。注意，在AndroidKiller点击安装后，可能并没有真正把1.apk安装进去，需要再手动拷贝进去覆盖掉)，这个框架资源是从安卓8.0提取的 `
+` 使用Android Killer时，可能会提示部分资源反编译失败，此时应该将此文件更名为1.apk,替换到C:\Users\用户名\apktool\framework\1.apk（win11是C:\Users\用户名\AppData\Local\apktool\framework\1.apk）。注意，别用AndroidKiller自带的安装，如果安装了，也需要手动拷贝进去覆盖掉，因为AndroidKiller自动安装的有问题，这个框架资源是从安卓8.0提取的 `
 
 ## 版本说明（原版安装包在/origin，破解版安装包在/crack）
 ### 1.0+ 基于原版4.0.20171226（版本号91），此版本未加固
