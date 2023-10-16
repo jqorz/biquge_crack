@@ -58,7 +58,6 @@
 
 > 新版apktool下载地址
 
-[ShakaApktool](https://github.com/rover12421/ShakaApktool) 作者：rover12421
 [apktool源码](https://github.com/iBotPeaches/Apktool)  作者：iBotPeaches
 
 > 新版baksmali下载地址
